@@ -1,0 +1,8 @@
+@favorites.map do |favorite|
+  {
+    id: favorite.id,
+    title: favorite.title,
+    author: favorite.author,
+    url: favorite_url(favorite, format: :json)
+  }
+end

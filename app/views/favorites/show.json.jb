@@ -1,0 +1,7 @@
+{
+  id: @favorite.id,
+  title: @favorite.title,
+  author: @favorite.author,
+  created_at: @favorite.created_at,
+  updated_at: @favorite.updated_at
+}
